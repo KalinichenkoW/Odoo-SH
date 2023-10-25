@@ -5,8 +5,9 @@
             <field name="model">hr.hospital.patient</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
-                    <field name="treating_doctor"></field>
+                    <field name="patient_name"/>
+                    <field name="patient_treating_doctor"></field>
+                    <field name="person_phone"></field>
                 </tree>
             </field>
         </record>
@@ -19,8 +20,10 @@
                     <header/>
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="treating_doctor"  widget="many2many_tags"></field>
+                            <field name="patient_name"/>
+                            <field name="patient_treating_doctor"  widget="many2many_tags"></field>
+                            <field name="person_phone"></field>
+                            
                         </group>
                     </sheet>
                 </form>

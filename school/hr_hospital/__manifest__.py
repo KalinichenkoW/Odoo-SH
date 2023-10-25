@@ -21,11 +21,14 @@
         'views/hospital_disease_views.xml',
         'views/hospital_patient_views.xml',
         'views/hospital_patient_visit_views.xml',
+        'views/hospital_person_views.xml',
     ],
 
     'demo': [
         'demo/doctor_demo.xml',
-        'demo/patient_demo.xml',
+        #'demo/patient_demo.xml',
+        'demo/person_demo.xml',
+        
     ],
 
     'installable': True,
@@ -33,6 +36,9 @@
 
     'images': [
         'static/description/icon.png',
+        'static/img/arnold_schwarzenegger.jpg',
+        'static/img/jennifer_lopez.jpg',
+        'static/img/lars_ulrich.jpg',
     ],
 
 }

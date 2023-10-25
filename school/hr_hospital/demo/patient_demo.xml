@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="patient_arnold_schwarzenegger" model="hr.hospital.patient">
-        <field name="name">Arnold Schwarzenegger</field>
+        <field name="patient_name">hr.hospital.person,1</field>
     </record>
     <record id="patient_lars_ulrich" model="hr.hospital.patient">
-        <field name="name">Lars Ulrich</field>
+        <field name="patient_name">hr.hospital.person,2</field>
     </record>
     <record id="patient_jennifer_lopez" model="hr.hospital.patient">
-        <field name="name">Jennifer Lopez</field>
+        <field name="patient_name">hr.hospital.person,3</field>
     </record>
 </odoo>

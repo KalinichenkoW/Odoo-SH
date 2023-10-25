@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="person_arnold_schwarzenegger" model="hr.hospital.person">
+        <field name="person_name">Arnold Schwarzenegger</field>
+        <field name="person_phone">+380001234567</field>
+        <field name="person_mail">arnold@schwarzenegger.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/arnold_schwarzenegger.jpg"/>
+        <field name="person_gender">male</field>
+    </record>
+
+    <record id="person_lars_ulrich" model="hr.hospital.person">
+        <field name="person_name">Lars Ulrich</field>
+        <field name="person_phone">+380007654321</field>
+        <field name="person_mail">ulrich@metallica.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/lars_ulrich.jpg"/>
+        <field name="person_gender">male</field>
+    </record>
+
+    <record id="person_jennifer_lopez" model="hr.hospital.person">
+        <field name="person_name">Jennifer Lopez</field>
+        <field name="person_phone">+38000342516</field>
+        <field name="person_mail">Jennifer@gl.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/jennifer_lopez.jpg"/>
+        <field name="person_gender">female</field>
+    </record>
+</odoo>

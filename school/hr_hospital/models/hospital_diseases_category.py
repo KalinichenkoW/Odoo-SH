@@ -6,8 +6,8 @@
 # from odoo import api, fields, models, tools, _
 #from odoo.exceptions import UserError, ValidationError
 # from odoo.osv import expression
-
-from odoo import models, fields, api, exceptions, _
+from odoo.exceptions import ValidationError
+from odoo import models, fields, api, _
 
 
 
@@ -47,7 +47,7 @@ class HospitalDiseasesCategory(models.Model):
 
     def _compute_disease_count(self):
         for obj in self:
-            categ.product_count = self.env["hr.hospital.disease"].search_count([('category_id', 'child_of', obj.id)])
+            obj.product_count = self.env["hr.hospital.disease"].search_count([('category_id', 'child_of', obj.id)])
 
     @api.constrains('parent_id')
     def _check_category_recursion(self):
