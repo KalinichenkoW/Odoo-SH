@@ -21,13 +21,13 @@
         'views/hospital_disease_views.xml',
         'views/hospital_patient_views.xml',
         'views/hospital_patient_visit_views.xml',
-        'views/hospital_person_views.xml',
+        #'views/hospital_person_views.xml',
     ],
 
     'demo': [
         'demo/doctor_demo.xml',
-        #'demo/patient_demo.xml',
-        'demo/person_demo.xml',
+        'demo/patient_demo.xml',
+        #'demo/person_demo.xml',
         
     ],
 
@@ -39,6 +39,13 @@
         'static/img/arnold_schwarzenegger.jpg',
         'static/img/jennifer_lopez.jpg',
         'static/img/lars_ulrich.jpg',
+        'static/img/lyusya_arestovych.jpg',
+        'static/img/oleksiy_arestovych.jpg',
+        'static/img/doctor_01.jpg',
+        'static/img/doctor_02.png',
+        'static/img/doctor_03.jpg',
+        'static/img/doctor_04jpg',
+        
     ],
 
 }

@@ -5,11 +5,11 @@
             <field name="model">hr.hospital.person</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="person_name"></field>
-                    <field name="person_phone"></field>
-                    <field name="person_mail"></field>
+                    <field name="name"></field>
+                    <field name="phone"></field>
+                    <field name="mail"></field>
                     <field name="image_128" widget="image"></field>
-                    <field name="person_gender"></field>
+                    <field name="gender"></field>
                 </tree>
             </field>
         </record>
@@ -22,10 +22,10 @@
                     <header/>
                     <sheet>
                         <group>
-                            <field name="person_name"></field>
-                            <field name="person_phone"></field>
-                            <field name="person_mail"></field>
-                            <field name="person_gender"></field>
+                            <field name="name"></field>
+                            <field name="phone"></field>
+                            <field name="mail"></field>
+                            <field name="gender"></field>
                             <field name="image_1920" widget="image"></field>                            
                         </group>
                     </sheet>

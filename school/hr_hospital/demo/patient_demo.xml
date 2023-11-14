@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="patient_arnold_schwarzenegger" model="hr.hospital.patient">
-        <field name="patient_name">hr.hospital.person,1</field>
+    <record id="person_arnold_schwarzenegger" model="hr.hospital.patient">
+        <field name="name">Arnold Schwarzenegger</field>
+        <field name="phone">+380001234567</field>
+        <field name="mail">arnold@schwarzenegger.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/arnold_schwarzenegger.jpg"/>
+        <field name="gender">male</field>
+        <field name="date_of_birth">1947-07-30</field>
+        <field name="doctor_id" ref="hr_hospital.doctor_gregory_house"/>
     </record>
-    <record id="patient_lars_ulrich" model="hr.hospital.patient">
-        <field name="patient_name">hr.hospital.person,2</field>
+
+    <record id="person_lars_ulrich" model="hr.hospital.patient">
+        <field name="name">Lars Ulrich</field>
+        <field name="phone">+380007654321</field>
+        <field name="mail">ulrich@metallica.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/lars_ulrich.jpg"/>
+        <field name="gender">male</field>
+        <field name="date_of_birth">1963-12-26</field>
+        <field name="doctor_id" ref="hr_hospital.doctor_silvia_pelini"/>
     </record>
-    <record id="patient_jennifer_lopez" model="hr.hospital.patient">
-        <field name="patient_name">hr.hospital.person,3</field>
+
+    <record id="person_jennifer_lopez" model="hr.hospital.patient">
+        <field name="name">Jennifer Lopez</field>
+        <field name="phone">+38000342516</field>
+        <field name="mail">Jennifer@gl.com</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/jennifer_lopez.jpg"/>
+        <field name="gender">female</field>
+        <field name="date_of_birth">1969-07-24</field>
+        <field name="doctor_id" ref="hr_hospital.doctor_dennis_delee"/>
+    </record>
+    
+    <record id="person_lyusya_arestovych" model="hr.hospital.patient">
+        <field name="name">Lyusya Arestovych</field>
+        <field name="phone">+380007771316</field>
+        <field name="mail">l.arestovych@uukr.net</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/lyusya_arestovych.jpg"/>
+        <field name="gender">female</field>
+        <field name="date_of_birth">2005-08-03</field>
+        <field name="doctor_id" ref="hr_hospital.doctor_komarovskyy_yevhen"/>
+    </record>
+
+     <record id="person_oleksiy_arestovych" model="hr.hospital.patient">
+        <field name="name">Oleksiy Arestovych</field>
+        <field name="phone">+380001312777</field>
+        <field name="mail">o.arestovych@uukr.net</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/oleksiy_arestovych.jpg"/>
+        <field name="gender">male</field>
+        <field name="date_of_birth">1975-08-03</field>
+        <field name="doctor_id" ref="hr_hospital.doctor_komarovskyy_yevhen"/>
     </record>
 </odoo>

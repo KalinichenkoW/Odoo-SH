@@ -5,9 +5,9 @@ class HospitalPerson(models.AbstractModel):
     _name = 'hr.hospital.person'
     _description = 'Hospital Person'
 
-    person_name = fields.Char(string='Full name', required=True)
-    person_phone = fields.Char(string='Phone')
-    person_mail = fields.Char(string='Mail')
+    name = fields.Char(string='Full name', required=True)
+    phone = fields.Char(string='Phone')
+    mail = fields.Char(string='Mail')
     image_1920 = fields.Image(string='Image', max_width=1920, max_height=1920, store=True)
     # resized fields stored (as attachment) for performance
     image_1024 = fields.Image("Image 1024", related="image_1920", max_width=1024, max_height=1024, store=True)
@@ -16,7 +16,7 @@ class HospitalPerson(models.AbstractModel):
     image_128 = fields.Image("Image 128", related="image_1920", max_width=128, max_height=128, store=True)
 
 
-    person_gender = fields.Selection(
+    gender = fields.Selection(
                             string='Gender',                            
                             selection=[
                                 ('male', 'Male'),
