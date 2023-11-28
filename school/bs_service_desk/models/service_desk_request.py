@@ -1,10 +1,12 @@
-from odoo import models, fields, api, _l
+from odoo import models, fields, api, _
+from odoo.exceptions import ValidationError
 
 
 
 class BsServiceDeskRequest(models.Model):
     _name = 'bs.service.desk.request'
     _description = 'BS Service Desk Request'
+#    _inherit = ['portal.mixin', 'mail.thread', 'mail.activity.mixin']
     
 
     name = fields.Char(string='Name', required=True)
@@ -26,11 +28,11 @@ class BsServiceDeskRequest(models.Model):
                                         ('technical_consultation', 'Technical consultation'),
                                         ('other', 'Other')])
 
-    product_ids = fields.Many2many(        
-        comodel_name='product.template',
-        string="Products",
-    #    required=True,
-    )
+    # product_ids = fields.Many2many(        
+    #     comodel_name='product.template',
+    #     string="Products",
+    # #    required=True,
+    # )
 
     company_id = fields.Many2one(
         comodel_name="res.partner",
@@ -51,18 +53,19 @@ class BsServiceDeskRequest(models.Model):
     #     domain="[('parent_id', '=', company_id), '|', ('type', '=', contact)]",
     # )
     
-    responsible_manager = fields.Many2one(
-        string="Responsible manager",
-        comodel_name='hr.employee',
-    #    required=True,
-    )
+    # responsible_manager = fields.Many2one(
+    #     string="Responsible manager",
+    #     comodel_name='hr.employee',
+    #     domain="[('parent_id', '=', company_id), '|', ('type', '=', contact)]",
+    # #    required=True,
+    # )
 
     stage_id = fields.Many2one(
         string="Stage",
         comodel_name='bs.service.desk.stage',
         required=True,
         default=lambda self: self.env['bs.service.desk.stage'].search([('sequence', '=', 1)], limit=1)
-    )  
+    )   
 
 
     @api.model

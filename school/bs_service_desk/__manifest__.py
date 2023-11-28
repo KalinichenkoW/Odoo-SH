@@ -11,11 +11,16 @@
 
     'author': "Volodymyr Kalinichenko",
     'website': "https://www.bettaservice.com.ua",
-    'category': 'Uncategorized',
+    'category': 'Services',
     'license': 'LGPL-3',
     'version': '16.0.1.0.0',
 
-    'depends': ['base'],
+    'depends': [
+        'base'
+        # 'res.partner',
+        # 'product.template',
+        # 'hr.employee'
+    ],
 
     'data': [
         'data/ir_sequence_data.xml',
@@ -31,8 +36,8 @@
         #'demo/request_demo.xml',
     ],
 
-    'installable': True,
-    'auto_install': False,
+    # 'installable': True,
+    # 'auto_install': True,
 
     'images': [
         'static/description/icon.png',

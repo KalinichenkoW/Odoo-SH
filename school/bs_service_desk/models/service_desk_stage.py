@@ -10,4 +10,3 @@ class BsServiceDeskStage(models.Model):
     sequence = fields.Integer(default=1)
     active = fields.Boolean(default=True)
     description = fields.Html(translate=True, sanitize_style=True)
-    
