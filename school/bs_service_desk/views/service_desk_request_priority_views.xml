@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bs_service_desk_request_priority_tree" model="ir.ui.view">
+        <field name="name">bs.service.desk.request.priority.tree ()</field>
+        <field name="model">bs.service.desk.request.priority</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+            <field name="active" invisible="1"/>
+            <field name="name"/>
+            <field name="priority" widget="handle" />
+            <field name="color" widget="color_picker"/>
+        </tree>
+        </field>
+    </record>
+
+    <record id="bs_service_desk_request_priority_form" model="ir.ui.view">
+        <field name="name">bs.service.desk.request.priority.form ()</field>
+        <field name="model">bs.service.desk.request.priority</field>
+        <field name="arch" type="xml">
+            <form string="Color">
+            <field name="active" invisible="1"/>
+            <field name="name" style="width:40%"/>
+            <field name="color" style="width:40%" widget="color_picker"/>
+        </form>
+        </field>
+    </record>
+
+    <record id="bs_service_desk_request_priority_act_window" model="ir.actions.act_window">
+        <field name="name">Priority</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bs.service.desk.request.priority</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="bs_service_desk_request_priority_menu"
+            action="bs_service_desk_request_priority_act_window"
+            parent="bs_service_desk_settings_menu"
+            name="List Priority" sequence="200"/>
+
+</odoo>
