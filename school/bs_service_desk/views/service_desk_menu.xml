@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<odoo>
+    <menuitem id="bs_service_desk_main_menu"
+        web_icon="bs_service_desk,static/description/icon.png"
+        name="Service Desk" sequence="10"/>
+    
+    <menuitem id="bs_service_desk_request_menu"
+            parent="bs_service_desk_main_menu"
+            name="Requests" sequence="100"/>
+
+    <menuitem id="bs_service_desk_settings_menu"
+            parent="bs_service_desk_main_menu"
+            name="Settings" sequence="999"/>
+</odoo>

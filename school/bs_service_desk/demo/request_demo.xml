@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+          <!-- <record id="stage_1" model="bs.service.desk.request"> -->
+            <!-- <field name="name">Зробити установку одладнання</field> -->
+            <!-- <field name="number">DS-000001</field> -->
+            <!-- <field name="stage_id">1</field> -->
+            <!-- <field name="responsible_manager">2</field> -->
+            <!-- <field name="type_request">service_application</field> -->
+            <!-- <field name="active">1</field> -->
+            <!-- <field name="deadline"></field> -->
+            <!-- <field name="company_id" ref="hr.employee.14" /> -->
+            <!-- <field name="address_id"></field>
+            <field name="description"></field>                           -->
+           
+            <!-- <field name="product_ids" >5</field> -->
+
+          <!-- </record> -->
+
+          <!-- <record id="request_2" model="bs.service.desk.request">
+            <field name="name">Is performed</field>
+            <field name="sequence">2</field>
+            <field name="active">1</field>
+          </record>
+          
+          <record id="request_3" model="bs.service.desk.request">
+            <field name="name">Stage completed</field>
+            <field name="sequence">3</field>
+            <field name="active">1</field>
+          </record> -->
+    </data>
+</odoo>

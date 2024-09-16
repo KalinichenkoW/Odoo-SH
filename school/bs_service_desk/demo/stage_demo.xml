@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- 
+Нова
+В роботі
+Перенесена
+Виконана
+ -->
+    <data>
+          <record id="stage_1" model="bs.service.desk.stage">
+            <field name="name">New stage</field>
+            <field name="sequence">1</field>
+            <field name="active">1</field>
+          </record>
+
+          <record id="stage_2" model="bs.service.desk.stage">
+            <field name="name">In work</field>
+            <field name="sequence">2</field>
+            <field name="active">1</field>
+          </record>
+          
+          <record id="stage_3" model="bs.service.desk.stage">
+            <field name="name">Transferred</field>
+            <field name="sequence">3</field>
+            <field name="active">1</field>
+          </record>
+
+          <record id="stage_4" model="bs.service.desk.stage">
+            <field name="name">Executed</field>
+            <field name="sequence">4</field>
+            <field name="active">1</field>
+          </record>
+    </data>
+</odoo>
+

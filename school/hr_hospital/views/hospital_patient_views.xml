@@ -5,8 +5,16 @@
             <field name="model">hr.hospital.patient</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="name"/>
-                    <field name="treating_doctor"></field>
+                    <field name="name"></field>
+                        <field name="phone"></field>
+                        <field name="mail"></field>
+                        <field name="image_128" widget="image"></field>
+                        <field name="gender"></field>
+                        <field name="doctor_id"></field>
+                        <field name="date_of_birth"></field>
+                        <field name="age"></field>
+                        <field name="passport_data"></field>
+                        <field name="contact_person"></field>
                 </tree>
             </field>
         </record>
@@ -16,10 +24,25 @@
             <field name="model">hr.hospital.patient</field>
             <field name="arch" type="xml">
                 <form>
+                    <header/>
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="treating_doctor"  widget="many2many_tags"></field>
+                                                       
+                            <field name="name"></field>
+                            <field name="phone"></field>
+                            <field name="mail"></field>
+                            <field name="image_128" widget="image"></field>
+                            <field name="gender"></field>
+                            <field name="doctor_id"></field>
+                            <field name="date_of_birth"></field>
+                            <field name="age"></field>
+                            <field name="passport_data"></field>
+                            <field name="contact_person"></field>
+
+
+
+
+
                         </group>
                     </sheet>
                 </form>

@@ -1,0 +1,201 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bs_service_desk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20231120\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-28 15:22+0000\n"
+"PO-Revision-Date: 2023-11-28 15:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__active
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__address_id
+msgid "Address"
+msgstr "Адреса"
+
+#. module: bs_service_desk
+#: model_terms:ir.ui.view,arch_db:bs_service_desk.view_bs_service_desk_stag_search
+msgid "Archived"
+msgstr ""
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__attachment_file
+msgid "Attachment File"
+msgstr "Файл"
+
+#. module: bs_service_desk
+#: model:ir.model,name:bs_service_desk.model_bs_service_desk_request
+msgid "BS Service Desk Request"
+msgstr "Запит служби підтримки BS"
+
+#. module: bs_service_desk
+#: model:ir.model,name:bs_service_desk.model_bs_service_desk_stage
+msgid "BS Service Desk Stage"
+msgstr ""
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__create_uid
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__create_uid
+msgid "Created by"
+msgstr "Ким створено"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__create_date
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__create_date
+msgid "Created on"
+msgstr "Коли створено"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__deadline
+msgid "Deadline"
+msgstr "Термін виконання"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__description
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__display_name
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__display_name
+msgid "Display Name"
+msgstr "Відображуване ім'я"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__id
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__id
+msgid "ID"
+msgstr ""
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request____last_update
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage____last_update
+msgid "Last Modified on"
+msgstr "Змінено"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__write_uid
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__write_uid
+msgid "Last Updated by"
+msgstr "Відновлено"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__write_date
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__write_date
+msgid "Last Updated on"
+msgstr "Оновлено"
+
+#. module: bs_service_desk
+#: model:ir.ui.menu,name:bs_service_desk.bs_service_desk_request
+msgid "List Request"
+msgstr "Список заявок"
+
+#. module: bs_service_desk
+#: model:ir.ui.menu,name:bs_service_desk.bs_service_desk_stage_menu
+msgid "List Stage"
+msgstr "Список стадій"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__name
+msgid "Name"
+msgstr "Тема"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__number
+msgid "Number"
+msgstr "Номер"
+
+#. module: bs_service_desk
+#: model:ir.model.fields.selection,name:bs_service_desk.selection__bs_service_desk_request__type_request__other
+msgid "Other"
+msgstr "Інший"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__product_ids
+msgid "Products"
+msgstr "Продукт"
+
+#. module: bs_service_desk
+#: model:ir.actions.act_window,name:bs_service_desk.bs_service_desk_request_act_window
+msgid "Request"
+msgstr "Заявки"
+
+#. module: bs_service_desk
+#: model:ir.model.fields.selection,name:bs_service_desk.selection__bs_service_desk_request__type_request__request_for_spare_parts
+msgid "Request for spare parts"
+msgstr "Заява на запчастини"
+
+#. module: bs_service_desk
+#: model:ir.ui.menu,name:bs_service_desk.bs_service_desk_request_menu
+msgid "Requests"
+msgstr "Заявки"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__responsible_manager
+msgid "Responsible manager"
+msgstr "Відповідальний менеджер"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: bs_service_desk
+#: model:ir.ui.menu,name:bs_service_desk.bs_service_desk_main_menu
+msgid "Service Desk"
+msgstr ""
+
+#. module: bs_service_desk
+#: model:ir.model.fields.selection,name:bs_service_desk.selection__bs_service_desk_request__type_request__service_application
+msgid "Service application"
+msgstr "Сервісний додаток"
+
+#. module: bs_service_desk
+#: model:ir.ui.menu,name:bs_service_desk.bs_service_desk_settings_menu
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: bs_service_desk
+#: model:ir.actions.act_window,name:bs_service_desk.bs_service_desk_stage_act_window
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__stage_id
+msgid "Stage"
+msgstr "Стадії"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_stage__name
+msgid "Stage Name"
+msgstr "Назва стадії"
+
+#. module: bs_service_desk
+#: model_terms:ir.ui.view,arch_db:bs_service_desk.view_bs_service_desk_stag_search
+msgid "Stage Search"
+msgstr "Пошук стадій"
+
+#. module: bs_service_desk
+#: model:ir.model.fields.selection,name:bs_service_desk.selection__bs_service_desk_request__type_request__technical_consultation
+msgid "Technical consultation"
+msgstr "Технічна консультація"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__type_request
+msgid "Type Request"
+msgstr "Тип запиту"
+
+#. module: bs_service_desk
+#: model:ir.model.fields,field_description:bs_service_desk.field_bs_service_desk_request__company_id
+msgid "Сlient"
+msgstr "Клієнт"

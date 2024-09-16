@@ -9,3 +9,4 @@ class HospitalPatientVisit(models.Model):
     patient_id = fields.Many2many(comodel_name='hr.hospital.patient')
     doctor_id = fields.Many2many(comodel_name='hr.hospital.doctor')
     disease_id = fields.Many2many(comodel_name='hr.hospital.disease')
+ 

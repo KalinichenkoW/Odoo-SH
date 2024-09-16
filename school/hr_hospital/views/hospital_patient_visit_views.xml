@@ -18,7 +18,7 @@
             <field name="model">hr.hospital.patient.visit</field>
             <field name="arch" type="xml">
                 <form>
-                    <header></header>
+                    <header/>
                     <sheet>
                         <group>
                             <field name="name"/>

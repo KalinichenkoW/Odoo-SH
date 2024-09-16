@@ -2,11 +2,18 @@
 <odoo>
     <record id="doctor_gregory_house" model="hr.hospital.doctor">
         <field name="name">Gregory House</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/doctor_01.jpg"/>
     </record>
     <record id="doctor_silvia_pelini" model="hr.hospital.doctor">
         <field name="name">Silvia Pelini</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/doctor_02.png"/>
     </record>
     <record id="doctor_dennis_delee" model="hr.hospital.doctor">
         <field name="name">Dennis Delee</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/doctor_03.jpg"/>
+    </record>
+    <record id="doctor_komarovskyy_yevhen" model="hr.hospital.doctor">
+        <field name="name">Комаровський Євген Олегович</field>
+        <field name="image_1920" type="base64" file="hr_hospital/static/img/doctor_04.jpg"/>
     </record>
 </odoo>

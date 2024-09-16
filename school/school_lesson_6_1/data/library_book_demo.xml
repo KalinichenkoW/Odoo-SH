@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+
+    <record id="marusya_churay" model="library.book">
+        <field name="name">Маруся Чурай</field>
+        <field name="artistic" ref="school_lesson_6_1.artistic"/>
+    </record>
+
+    <record id="poklyk_predkiv" model="library.book">
+        <field name="name">Поклик предків</field>
+        <field name="educational" ref="school_lesson_6_1.educational"/>
+    </record>
+
+    <record id="dvadtsat_tysyach_lye_pod_vodoy" model="library.book">
+        <field name="name">Двадцать тисячі льє під водою</field>
+        <field name="fantasy" ref="school_lesson_6_1.fantasy"/>
+    </record>
+    
+
+    <delete id="dvadtsat_tysyach_lye_pod_vodoy" model="library.book"/>
+
+    <record id="poklyk_predkiv" model="library.book">
+        <field name="name">New name</field>
+    </record>
+
+</odoo>
